@@ -23,12 +23,17 @@
 - **Communication**: Dio for high-performance API calls
 - **Social**: Integrated social sharing and interactive confetti celebrations
 
-## 📱 Interface Highlights
+## 📸 Interface Preview
 
-*Foodies features a bespoke design system with:*
-- Custom **Glassmorphism** effects.
-- Interactive TabBar views with auto-scaling.
-- Sophisticated onboarding flows with Rive assets.
+<p align="center">
+  <img src="screenshots/logo.png" width="150" alt="Foodies Logo" />
+</p>
+
+<p align="center">
+  <img src="screenshots/hpme.png" width="200" alt="Home Screen" />
+  <img src="screenshots/start1.png" width="200" alt="Onboarding 1" />
+  <img src="screenshots/start2.png" width="200" alt="Onboarding 2" />
+</p>
 
 ## 🚀 Vision
 To redefine how people interact with recipes, moving away from static text to a dynamic, voice-led, and visually stunning interactive experience.

@@ -1,0 +1,190 @@
+name: foodie
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.9
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.3
+  provider: ^6.1.5+1
+  smooth_page_indicator: ^2.0.1
+  shared_preferences: ^2.5.5
+  drop_shadow_image: ^0.9.1
+  uuid: ^4.5.3
+  cached_network_image: ^3.4.1
+  flutter_tts: ^4.2.5
+  share_plus: ^12.0.2
+  dio: ^5.9.2
+  pdf: ^3.12.0
+  image: ^4.8.0
+  flutter_svg: ^2.2.4
+  autoscale_tabbarview: ^1.0.2
+  liquid_progress_indicator: ^0.4.0
+  confetti: ^0.8.0
+  feedback: ^3.2.0
+  contentsize_tabbarview: ^0.0.2
+  page_transition: ^2.2.1
+  avatar_glow: ^3.0.1
+  audioplayers: ^6.6.0
+  just_audio: ^0.10.5
+  like_button: ^2.1.0
+  elegant_notification: ^2.5.1
+  toast_notification: ^1.0.0
+  toastification: ^3.2.0
+  animated_icon: ^1.0.0
+  iconsax: ^0.0.8
+  speech_to_text: ^7.3.0
+  permission_handler: ^12.0.1
+  awesome_snackbar_content: ^0.1.8
+  awesome_dialog: ^3.2.0
+  rive: ^0.12.4
+  flutter_zoom_drawer: ^3.2.0
+  flutter_side_menu: ^0.5.41
+  wiredash: ^2.6.0
+  babstrap_settings_screen: ^0.1.7
+  emoji_rating_bar: ^0.0.2
+  fluentui_emoji_icon: ^0.0.2
+  fancy_snackbar: ^0.0.1
+  intl: ^0.20.2
+  timeago: ^3.7.1
+  connectivity_plus: ^7.1.1
+  syncfusion_flutter_gauges: ^33.2.3
+  step_progress_indicator: ^1.0.2
+  lottie: ^3.3.3
+  swipeable_button_view: ^0.0.2
+  simple_shadow: ^0.3.1
+  flutter_easy_faq: ^1.0.1
+  flutter_faq: ^1.0.1+1
+  flutter_widget_from_html_core: ^0.17.2
+  carousel_slider: ^5.1.2
+  http: ^1.6.0
+  syncfusion_flutter_pdf: ^33.2.3
+  appinio_social_share: ^0.3.2
+  share_it: ^0.7.0
+  vocsy_esys_flutter_share: ^1.0.2
+  slinky_view: ^1.1.0
+  debounce_throttle: ^2.0.0
+  getwidget: ^7.0.0
+  entry: ^1.0.3
+  flutter_bounceable: ^1.2.0
+  flutter_animate: ^4.5.2
+  timeline_tile: ^2.0.0
+  another_stepper: ^1.2.2
+  flare_flutter: ^3.0.2
+  gif_view: ^1.0.3
+  restart_app: ^1.7.3
+  animated_text_kit: ^4.3.0
+  archive: ^4.0.9
+  flutter_screenutil: ^5.9.3
+  wakelock_plus: ^1.2.8
+  curved_navigation_bar: ^1.0.6
+  curved_navigation_bar_with_label: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/Onboard/
+    - assets/images/
+    - assets/images/Blob/
+    - assets/images/avatars/
+    - assets/images/avatars2/
+    - assets/images/home/
+    - assets/images/home/Items/
+    - assets/images/home/abstract-stage-spotlight-focus/
+    - assets/images/types/
+    - assets/images/types/cat/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/Poppin/Poppins-Regular.ttf
+        - asset: assets/Poppin/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/Poppin/Poppins-SemiBold.ttf
+          weight: 600
+
+    - family: Metropolis
+      fonts:
+        - asset: assets/metropolis/Metropolis-Regular.otf
+        - asset: assets/metropolis/Metropolis-Bold.otf
+          weight: 700
+        - asset: assets/metropolis/Metropolis-Medium.otf
+          weight: 500
+
+    - family: Acme
+      fonts:
+        - asset: assets/Acme/Acme-Regular.ttf
+
+    - family: Bree
+      fonts:
+        - asset: assets/Bree/BreeSerif-Regular.ttf
+
+    - family: Kalam
+      fonts:
+        - asset: assets/Kalam/Kalam-Regular.ttf
+        - asset: assets/Kalam/Kalam-Bold.ttf
+          weight: 700
+
+    - family: Caveat
+      fonts:
+        - asset: assets/curseive/static/Caveat-Regular.ttf
+        - asset: assets/curseive/static/Caveat-Bold.ttf
+          weight: 700
